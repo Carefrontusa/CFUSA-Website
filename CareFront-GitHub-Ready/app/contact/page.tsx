@@ -1,0 +1,5 @@
+import {pageMetadata} from '../../lib/seo';
+export const metadata=pageMetadata('Contact CareFront USA | Benefits & Business Solutions','Contact CareFront USA to explore supplemental benefits, comprehensive insurance, business savings, and partnership opportunities.','/contact');
+import {InquiryForm} from '../site';
+import {Mail,Phone,Check} from 'lucide-react';
+export default function Contact(){return <main id="main-content" className="wrap contactpage"><div className="contactintro"><span className="eyebrow">Let’s talk about what’s possible</span><h1>One conversation.<br/><em>A clearer path forward.</em></h1><p>Whether you’re exploring benefits, reducing operating costs, or building a partnership, we’ll help you find the right next step.</p><div className="contactlinks"><a href="mailto:brian@carefrontusa.com"><Mail/>brian@carefrontusa.com</a><a href="tel:9047057890"><Phone/>(904) 705-7890</a></div><div className="whatnext"><h3>What happens next?</h3><p><Check size={17}/> We review your goals and workforce.</p><p><Check size={17}/> We reach out for a brief conversation.</p><p><Check size={17}/> You get a clear next step.</p></div></div><InquiryForm/></main>}
