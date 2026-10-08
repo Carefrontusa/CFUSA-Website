@@ -59,9 +59,14 @@
     "wrangler": "4.92.0"
   },
   "type": "module",
-  "overrides": {
+    "overrides": {
     "miniflare>sharp": "0.35.4"
   },
+  "packageManager": "pnpm@11.25.0",
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild", "sharp"]
+  }
+}
  "packageManager": "pnpm@11.25.0",
 "pnpm": {
   "onlyBuiltDependencies": ["esbuild", "sharp"]
